@@ -1,4 +1,4 @@
-# 3) ejercicio 2.4 Página 86 Definición de métodos con y sin valores de retorno
+# 4) ejercicio 2.4 Página 86 Definición de métodos con y sin valores de retorno
 
 class circulo:
     radio = 0
