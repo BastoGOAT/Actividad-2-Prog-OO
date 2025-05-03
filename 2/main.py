@@ -1,4 +1,4 @@
-# 2) ejercicio 2.2 Página 66 definicion de clases
+# 2) ejercicio 2.2 Página 66 Definición de atributos de una clase con tipos primitivos de datos
 class planeta:
     nombre = ""
     Cantidad_Satelites = 0
