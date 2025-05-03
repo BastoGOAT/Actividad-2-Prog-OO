@@ -1,12 +1,12 @@
 # 2) ejercicio 2.2 Página 66 Definición de atributos de una clase con tipos primitivos de datos
 class planeta:
-    nombre = ""
+    nombre = None
     Cantidad_Satelites = 0
     masa = 0
     volumen = 0
     diametro = 0
     distancia_sol = 0
-    tipo_planeta = ""
+    tipo_planeta = None
     es_Observable = False
     
     def __init__(self, nombre:str,Cantidad_Satelites:int,masa:int,volumen:int,diametro:int,distancia_sol:int,tipo_planeta:str,es_Observable:bool):
