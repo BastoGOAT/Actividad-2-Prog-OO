@@ -5,14 +5,14 @@ class Cuenta_Bancaria:
     apellido = ""
     numero_cuenta= 0
     tipo_cuenta =""
-    saldo = 0
+    saldo = float(0)
 
     def __init__(self, nombre : str,apellido : str, numero_cuenta : int, tipo_cuenta : str):
         self.nombre = nombre
         self.apellido = apellido
         self.numero_cuenta = numero_cuenta
         self.tipo_cuenta = tipo_cuenta.upper()
-        self.saldo = 0
+        self.saldo = float(0)
 
 def imprimir(p):
     print("Nombres del titular: ", p.nombre)
